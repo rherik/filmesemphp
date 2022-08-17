@@ -1,0 +1,17 @@
+body{
+    background-color: #e5e5e5;
+}
+.nav-extended{
+    background-image: url("Sala_de_cine.jpg");
+    background-size: auto;
+    background-blend-mode: soft-light;
+}
+
+nav ul li.active, .tab a.active{
+    border-bottom: solid 2px #FFF;
+    background-color: transparent;
+}
+
+.nav-header h2{
+    text-shadow: 2px 2px 8px #000000; 
+}
