@@ -3,10 +3,10 @@ $rota = $_SERVER["REQUEST_URI"];
 $metodo = $_SERVER["REQUEST_METHOD"];
 
 switch($rota){
-    case "/Sites/clorocine": 
+    case "/": 
         require "galeria.php";
         break;
-    case "/Sites/clorocine/novo":
+    case "/novo":
         if($metodo == "GET") require "cadastrar.php";
         if($metodo == "POST") require "inserirFilme.php";
         break;

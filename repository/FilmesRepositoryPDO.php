@@ -28,5 +28,7 @@ class FilmesRepositoryPDO{
 
         return $stmt->execute();
     }
+    #public function deletar(Filme $filme):bool{
+        #$sql = "DROP "}
 }
 ?>

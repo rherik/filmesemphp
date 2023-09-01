@@ -13,8 +13,8 @@ $filmes = $filmesRepository->listarTodos();
   <nav class="nav-extended purple lighten-1">
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right">
-        <li><a class="active" href="/Sites/clorocine">Galeria</a></li>
-        <li><a href="/Sites/clorocine/novo">Cadastrar</a></li>
+        <li><a class="active" href="/">Galeria</a></li>
+        <li><a href="/novo">Cadastrar</a></li>
       </ul>
     </div>
     <div class="nav-header center">
